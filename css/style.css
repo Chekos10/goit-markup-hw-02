@@ -12,17 +12,26 @@ h1,h2,h3,h4,h5,h6{
 
 body{
     color: var(--text-color);
+    background-color:#E5E5E5;
 }
 .list{
     list-style: none;
 }
 /*logotype*/
+.hero{
+    background-color: #FFFFFF;
+}
 .logo{
     color: var(--headers-color);
     text-decoration: none;
 }
 .first-logo{
     color: #4D5AE5;
+}
+/*under header section*/
+.button{
+    color: #FFFFFF;
+    background-color: #4D5AE5;
 }
 
 /* page navigation*/
@@ -40,4 +49,26 @@ body{
     color: #434455;
     text-decoration: none;
 
+}
+/*Features*/
+.feature{
+    background-color: #E5E5E5;
+}
+
+/*What are we doing*/
+.company{
+    background-color: #E5E5E5;
+
+}
+/*Workers*/
+.workers{
+background-color: #F4F4FD;
+}
+/* Footer*/
+.end .logo{
+    color:#F4F4FD;
+}
+.end{
+    color: #F4F4FD;
+    background-color:#2E2F42;
 }
