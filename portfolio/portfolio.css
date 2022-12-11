@@ -1,0 +1,22 @@
+.button-list{
+    list-style: none;
+}
+
+.button-list .link{
+    color: #4D5AE5;
+    background-color:#E7E9FC;
+}
+.button-list .link:hover,
+.button-list .link:focus{
+    color: #FFFFFF;
+    background-color: #4D5AE5;
+}
+h1,h2,h3{
+    color:#2E2F42;
+}
+.examples-text{
+    color: #434455;
+}
+.examples .cover{
+    color: #F4F4FD;
+}
