@@ -1,6 +1,8 @@
 :root{
     --headers-color: #2E2F42 ;
     --text-color: #434455;
+    --primaty-bcg-color:#E5E5E5;
+    --hover-link-color:#4D5AE5;
 }
 /*the main color of headers #2E2F42 */
 /* the main color of text #434455*/
@@ -25,7 +27,7 @@ body{
     text-decoration: none;
 }
 .first-logo{
-    color: #4D5AE5;
+    color:#4D5AE5;
 }
 
 /* page navigation*/
@@ -36,14 +38,18 @@ body{
 
 .nav-page .link:hover, 
 .nav-page .link:focus{
-    color: #4D5AE5;
+    color: var(--hover-link-color);
 }
 .nav-page .link{
     text-decoration: none;
     color: #2E2F42;
 }
 .nav-page .link.current{
-    color: #4D5AE5;
+    color: var(--hover-link-color);
+}
+.adress-nav .link:hover,
+.adress-nav .link:focus{
+    color: var(--hover-link-color);
 }
 
 .adress-nav .link{
@@ -65,12 +71,12 @@ body{
 
 /*Features*/
 .feature{
-    background-color: #E5E5E5;
+    background-color: var(--primaty-bcg-color);
 }
 
 /*What are we doing*/
 .company{
-    background-color: #E5E5E5;
+    background-color: var(--primaty-bcg-color);
 
 }
 /*Workers*/
