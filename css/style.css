@@ -1,0 +1,43 @@
+:root{
+    --headers-color: #2E2F42 ;
+    --text-color: #434455;
+}
+/*the main color of headers #2E2F42 */
+/* the main color of text #434455*/
+
+/*main*/
+h1,h2,h3,h4,h5,h6{
+    color: var(--headers-color) ;
+}
+
+body{
+    color: var(--text-color);
+}
+.list{
+    list-style: none;
+}
+/*logotype*/
+.logo{
+    color: var(--headers-color);
+    text-decoration: none;
+}
+.first-logo{
+    color: #4D5AE5;
+}
+
+/* page navigation*/
+.nav-page {
+    color: #2E2F42;
+    text-decoration: none;
+}
+
+.nav-page .link:hover, 
+.nav-page .link:focus{
+    color: #4D5AE5;
+}
+
+.adress-nav .link{
+    color: #434455;
+    text-decoration: none;
+
+}
