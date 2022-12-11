@@ -12,13 +12,12 @@ h1,h2,h3,h4,h5,h6{
 
 body{
     color: var(--text-color);
-    background-color:#E5E5E5;
 }
 .list{
     list-style: none;
 }
 /*logotype*/
-.hero{
+.page{
     background-color: #FFFFFF;
 }
 .logo{
@@ -27,11 +26,6 @@ body{
 }
 .first-logo{
     color: #4D5AE5;
-}
-/*under header section*/
-.button{
-    color: #FFFFFF;
-    background-color: #4D5AE5;
 }
 
 /* page navigation*/
@@ -44,12 +38,31 @@ body{
 .nav-page .link:focus{
     color: #4D5AE5;
 }
+.nav-page .link{
+    text-decoration: none;
+    color: #2E2F42;
+}
+.nav-page .link.current{
+    color: #4D5AE5;
+}
 
 .adress-nav .link{
     color: #434455;
     text-decoration: none;
 
 }
+/*under header section*/
+.hero{
+    background-color: #2E2F42;
+}
+.hero .tittle{
+    color: #FFFFFF;
+}
+.button{
+    color: #FFFFFF;
+    background-color: #4D5AE5;
+}
+
 /*Features*/
 .feature{
     background-color: #E5E5E5;
