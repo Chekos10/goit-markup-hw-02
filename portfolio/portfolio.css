@@ -1,22 +1,45 @@
-.button-list{
-    list-style: none;
+body {
+  background-color: #e5e5e5;
 }
 
-.button-list .link{
-    color: #4D5AE5;
-    background-color:#E7E9FC;
+.button-list {
+  list-style: none;
 }
-.button-list .link:hover,
-.button-list .link:focus{
-    color: #FFFFFF;
-    background-color: #4D5AE5;
+
+.buttons .link {
+  color: #4d5ae5;
+  background-color: #e7e9fc;
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
-h1,h2,h3{
-    color:#2E2F42;
+.buttons .link:hover,
+.buttons .link:focus {
+  color: #ffffff;
+  background-color: #4d5ae5;
 }
-.examples-text{
-    color: #434455;
+h1,
+h2,
+h3 {
+  color: #2e2f42;
 }
-.examples .cover{
-    color: #F4F4FD;
+.examples .tittle {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.examples-text {
+  color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.examples .cover {
+  color: #f4f4fd;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
